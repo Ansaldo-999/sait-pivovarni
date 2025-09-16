@@ -7,7 +7,7 @@
 .header-img img {
     position: absolute;
     inset: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -28,8 +28,8 @@
     margin-left: 800px;
 }
 .footer .footer-col h6 {
-    margin-top: 114px;
-    font-size: 20px;
+    margin-top: 11px;
+    font-size: 25px;
 }
 .footer .footer-col .h9 img {
     width: 100px;
@@ -68,7 +68,7 @@
 .header-img img {
     position: absolute;
     inset: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -86,7 +86,7 @@
     height: auto;
     object-fit: contain;
     margin-top: 250px;
-    margin-left: 850px;
+    margin-left: 1000px;
 }
 .footer .footer-col .h9 img {
     width: 100px;
@@ -96,8 +96,8 @@
     margin-top: 100px;
 }
 .footer .footer-col h6 {
-    margin-top: 14px;
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 /* ______________________page2___________________________________ */
 
@@ -144,10 +144,39 @@
 }
 @media (min-width: 700px) and (max-width:1199px){
 /* ____________________page1_____________________________ */
+.header-img h3 img {
+    display: block;
+    width: 320px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 250px;
+    margin-left: 900px;
+}
+.header-img .content nav.left-nav ul li {
+    list-style: none;
+    margin-inline: 100px;
+    margin-top: 40px;
+    display: flex;
+}
+.header-img .content nav.left-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: -300px;
+}
+
+.header-img h4 img {
+    width: auto;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 50px;
+}
 .header-img img {
     position: absolute;
     inset: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -178,15 +207,55 @@ h6, a {
     font-size: 20px;
     color: #fff;
 }
+.footer-col {
+    flex: 50%;
+    margin: 20px;
+    margin-left: -10px;
+}
 .footer .footer-col h6 {
-    margin-top: 14px;
-    font-size: 15px;
-    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
 }
 footer .footer-col img {
     width: 250px;
     height: auto;
-    /* margin-left: 10px; */
+    
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: -200px;
+}
+/* _____________________________________page2_________________________ */
+.gallery {
+    display: flex;
+    margin-left: -20px;
+}
+.gallery-2 {
+    display: flex;
+    margin-top: -110px;
+    margin-left: -20px;
+}
+.gallery-3 {
+    display: flex;
+    margin-top: -110px;
+    margin-left: 450px;
+}
+.para1 {
+    margin-left: 100px;
+    margin-right: 19px;
+}
+/* ______________________page3__________________________ */
+.gallery-19 {
+    display: flex
+;
+    margin-left: 100px;
+}
+.para {
+    margin-left: 100px;
+    margin-right: 19px;
 }
 
 
@@ -196,7 +265,7 @@ footer .footer-col img {
 .header-img img {
     position: absolute;
     inset: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -205,8 +274,9 @@ footer .footer-col img {
 .header-img .content nav.left-nav ul li {
     list-style: none;
     margin-inline: 100px;
-    margin-top: 40px;
-    display: flex;
+    margin-top: 50px;
+    display: flex
+;
 }
 .header-img .content nav.left-nav ul {
     list-style: none;
@@ -220,7 +290,7 @@ footer .footer-col img {
 .header-img h4 img {
     width: auto;
     height: 100px;
-    margin-top: -200px;
+    margin-top: -350px;
     margin-left: 50px;
 }
 .header-img h3 img {
@@ -234,12 +304,18 @@ footer .footer-col img {
 }
 .info1 {
     margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 50px;
+    margin-right: 00px;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.part-info2 {
+    margin-top: 150px;
+    font-size: 50px;
+    margin-left: 20px;
+    color: rgb(42, 82, 52);
+    font-family: monospace;
+}
 /* nav {
     margin-top: 200px;
 } */
@@ -299,37 +375,31 @@ footer .footer-col img {
 header .top-header .wrapper-2 .about-us h5 {
     color: #fff;
     font-size: 20px;
-    margin-left: 180px;
-    margin-top: 20px;
+    margin-left: 10px;
+    margin-top: 30px;
 }
 header .top-header .wrapper-2 .about-us h5 .h6 {
     color: #fff;
-    font-size: 20px;
+    font-size: 17px;
     margin-top: 0px;
 }
+header .top-header .wrapper-2 .about-us h4 {
+    color: #fff;
+    font-size: 70px;
+    margin-left: 100px;
+    font-family: monospace;
+}
+
 
 .gallery {
-    display: flex;
-    margin-left: -20px;
+    
+    margin-left: -30px;
 }
 .rectangle {
-    margin-left: 30px;
+    margin-left: 130px;
     margin-top: 50px;
-    width: 170px;
-    height: 300px;
-    background-color: rgb(223, 209, 192);
-    border-radius: 40%;
-    -moz-border-radius: 0px 0px 0px 0px;
-    -webkit-border-radius: 0px 0px 0px 0px;
-    padding: 20px;
-    align-items: center;
-    margin-bottom: 98px;
-}
-.rectangle-1 {
-    margin-left: 30px;
-    margin-top: 50px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 400px;
     background-color: rgb(223, 209, 192);
     border-radius: 40%;
     -moz-border-radius: 0px 0px 0px 0px;
@@ -339,71 +409,54 @@ header .top-header .wrapper-2 .about-us h5 .h6 {
     margin-bottom: 98px;
 }
 .rectangle .text {
-    margin-top: -40px;
+    margin-top: 195px;
     margin-left: 0px;
     display: flex;
     flex-direction: column;
+}
+.rectangle-1 {
+    margin-left: 130px;
+    margin-top: 50px;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(223, 209, 192);
+    border-radius: 40%;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 98px;
 }
 .rectangle-1 .text {
-    margin-top: -8px;
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-}
-.rectangle-2 .text {
-    margin-top: -150px;
+    margin-top: 165px;
     margin-left: 0px;
     display: flex;
     flex-direction: column;
 }
-.rectangle-2 .text h1 {
-    font-size: 20px;
-    color: rgb(42, 82, 52);
-    font-family: monospace;
-    margin-top: 150px;
+.rectangle-2 {
+    margin-left: 130px;
+    margin-top: 50px;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(223, 209, 192);
+    border-radius: 40%;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 98px;
 }
-.rectangle-2 .text p {
-    font-size: 20px;
-    color: #000000;
+.rectangle-2 .text {
     margin-top: 0px;
-}
-.rectangle-1 .text h1 {
-    font-size: 20px;
-    color: rgb(42, 82, 52);
-    font-family: monospace;
-    margin-top: 150px;
-}
-.rectangle-1 .text p {
-    font-size: 20px;
-    color: #000000;
-    margin-top: 0px;
-}
-.rectangle .text p {
-    font-size: 20px;
-    color: #000000;
-    margin-top: 0px;
-}
-.rectangle .text h1 {
-    font-size: 20px;
-    color: rgb(42, 82, 52);
-    font-family: monospace;
-    margin-top: 150px;
-}
-.gallery-2 {
-    display: flex
-;
-    margin-top: -110px;
-    margin-left: -20px;
-}
-.rectangle-5 img {
-    width: 83px;
-    margin-right: 15px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
 }
 .rectangle-5 {
     margin-left: 30px;
     margin-top: 50px;
-    width: 400px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
     background-color: rgb(223, 209, 192);
     border-radius: 40%;
     -moz-border-radius: 0px 0px 0px 0px;
@@ -413,18 +466,16 @@ header .top-header .wrapper-2 .about-us h5 .h6 {
     margin-bottom: 98px;
 }
 .rectangle-5 .text {
-    margin-top: -25px;
+    margin-top: -85px;
     margin-left: 0px;
     display: flex;
     flex-direction: column;
 }
-
-
 .rectangle-3 {
     margin-left: 30px;
     margin-top: 50px;
-    width: 350px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
     background-color: rgb(223, 209, 192);
     border-radius: 40%;
     -moz-border-radius: 0px 0px 0px 0px;
@@ -434,99 +485,38 @@ header .top-header .wrapper-2 .about-us h5 .h6 {
     margin-bottom: 98px;
 }
 .rectangle-3 .text {
-    margin-top: 120px;
+    margin-top: 110px;
     margin-left: 0px;
     display: flex;
     flex-direction: column;
-}
-.rectangle-5 {
-    margin-left: 30px;
-    margin-top: 50px;
-    width: 330px;
-    height: 500px;
-    background-color: rgb(223, 209, 192);
-    border-radius: 40%;
-    -moz-border-radius: 0px 0px 0px 0px;
-    -webkit-border-radius: 0px 0px 0px 0px;
-    padding: 20px;
-    align-items: center;
-    margin-bottom: 98px;
-}
-.rectangle-3 .text p {
-    font-size: 20px;
-    color: #000000;
-    margin-top: 0px;
-}
-.rectangle-3 .text h1 {
-    font-size: 20px;
-    color: rgb(42, 82, 52);
-    font-family: monospace;
-    margin-top: 150px;
-}
-.rectangle-3 .text {
-    margin-top: 75px;
-    margin-left: 0px;
-    display: flex;
-    flex-direction: column;
-}
-.rectangle-1 .text {
-    margin-top: -15px;
-    /* margin-left: 50px; */
-    display: flex;
-    flex-direction: column;
-}
-.gallery-3 {
-    display: flex;
-    margin-top: -110px;
-    margin-left: 230px;
-}
-.rectangle-1 .text h1 {
-    font-size: 20px;
-    color: rgb(42, 82, 52);
-    font-family: monospace;
-    margin-top: 150px;
-}
-.rectangle-1 .text p {
-    font-size: 20px;
-    color: #000000;
-    margin-top: 0px;
 }
 .part-info4 {
+    margin-top: 150px;
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(42, 82, 52);
+    font-family: monospace;
+}
+.para {
+    margin-left: 10px;
+    margin-right: 00px;
+}
+.para1 {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+/* ________________page3____________________________ */
+.part-info2 {
     margin-top: 150px;
     font-size: 40px;
     margin-left: 50px;
     color: rgb(42, 82, 52);
     font-family: monospace;
 }
-/* ________________page3____________________________ */
 .gallery-19 {
-    display: flex;
-    margin-left: -20px;
-}
-.rectangle9 {
-    margin-left: 30px;
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-    background-color: rgb(223, 209, 192);
-    border-radius: 40%;
-    -moz-border-radius: 0px 0px 0px 0px;
-    -webkit-border-radius: 0px 0px 0px 0px;
-    padding: 20px;
-    align-items: center;
-    margin-bottom: 98px;
-}
-.rectangle9 img {
-    width: 150px;
-    height: 150px;
-    margin-right: 15px;
-}
-.part-info2 {
-    margin-top: 150px;
-    font-size: 50px;
-    margin-left: 1px;
-    color: rgb(42, 82, 52);
-    font-family: monospace;
+    /* display: flex
+; */
+    margin-left: 00px;
 }
 }
 
@@ -570,7 +560,6 @@ body {
         
   height: auto;
   object-fit: contain;
-  /* vertical-align: middle; */
   margin-top: 250px;
   margin-left: 1200px;
 }
